@@ -1,0 +1,52 @@
+body {
+
+    height: 4000px;
+    
+    background-color: black;
+
+}
+
+
+
+#flex-container{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.x{
+    height: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.title{
+
+    color: crimson;
+    background-color: aliceblue;
+}
+
+.phone{
+
+    color: aqua;
+    background-color: blueviolet;
+
+}
+
+.address{
+
+    color: blanchedalmond;
+    background-color: black;
+
+}
+
+.email-address{
+
+    color: azure;
+    background-color: chartreuse;
+}
