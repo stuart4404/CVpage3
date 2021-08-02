@@ -1,6 +1,6 @@
 body {
 
-    height: 4000px;
+    height: 1000px;
     
     background-color: black;
 
@@ -27,21 +27,21 @@ body {
 
 .title{
 
-    color: crimson;
-    background-color: aliceblue;
+    color: rgb(243, 239, 240);
+    background-color: rgb(42, 230, 57);
 }
 
 .phone{
 
-    color: aqua;
-    background-color: blueviolet;
+    color: rgb(249, 253, 253);
+    background-color: rgb(28, 214, 84);
 
 }
 
 .address{
 
-    color: blanchedalmond;
-    background-color: black;
+    color: rgb(228, 225, 222);
+    background-color: rgb(68, 211, 33);
 
 }
 
@@ -50,3 +50,29 @@ body {
     color: azure;
     background-color: chartreuse;
 }
+
+
+
+.button {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin: 35%;
+    
+}
+  
+  /* Darker background on mouse-over */
+.button:hover {
+    background-color: RoyalBlue;
+}
+
+.footer {
+    color: chartreuse;
+}
+
+
+
