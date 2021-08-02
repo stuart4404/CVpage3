@@ -1,6 +1,6 @@
 body {
 
-    height: 1000px;
+    height: 900px;
     
     background-color: black;
 
@@ -61,7 +61,7 @@ body {
     cursor: pointer;
     font-size: 20px;
     text-align: center;
-    margin: 35%;
+    min-height: 150px;
     
 }
   
@@ -72,6 +72,15 @@ body {
 
 .footer {
     color: chartreuse;
+}
+
+.center {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 
