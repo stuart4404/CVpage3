@@ -29,6 +29,7 @@ body {
 
     color: rgb(243, 239, 240);
     background-color: rgb(42, 230, 57);
+    
 }
 
 .phone{
@@ -49,6 +50,7 @@ body {
 
     color: azure;
     background-color: chartreuse;
+    
 }
 
 
@@ -62,6 +64,10 @@ body {
     font-size: 20px;
     text-align: center;
     min-height: 150px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px
     
 }
   
