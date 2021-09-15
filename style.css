@@ -20,8 +20,6 @@ body{
     text-align: center;
     flex-wrap: wrap;
     margin-bottom: 2rem;
-    
-
 }
 
 h1{
@@ -65,7 +63,7 @@ h1{
 
     color: azure;
     background-color: rgb(243, 241, 220);
-    font-size: 2rem;
+    font-size: 3vmin;
     margin-top: 2rem;
     margin-bottom: 3rem;
     border-radius: 15px;
