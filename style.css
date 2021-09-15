@@ -1,52 +1,115 @@
-body {
-
-    height: 4000px;
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: normal;
+    width:90%;
+    margin: 0 auto;
     
-    background-color: black;
-
 }
 
+body{
+    background-color: black;
+}
 
-
-#flex-container{
+#container{
 
     display:flex;
     flex-direction: column;
     justify-content: top;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
     
 
 }
 
-.x{
-    height: 25%;
-    padding: 10px;
-    text-align: center;
+h1{
+    font-size: 7vmin;
+
 }
 
-.title{
 
-    color: crimson;
-    background-color: aliceblue;
+.header{
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 240, 178);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
+    
+    
 }
 
 .phone{
 
-    color: aqua;
-    background-color: blueviolet;
+    color: rgb(249, 253, 253);
+    background-color: rgb(218, 216, 145);
+    border-radius: 15px;
+    padding: 2rem;
 
 }
 
-.address{
+.postal-address{
 
-    color: blanchedalmond;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 199, 110);
+    margin-top: 2rem;
+    border-radius: 15px;
+    padding: 2rem;
 
 }
 
 .email-address{
 
     color: azure;
-    background-color: chartreuse;
+    background-color: rgb(243, 241, 220);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
+    
 }
+
+
+.download {
+
+    width: 70%;
+    
+
+}
+
+.button {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 15px;    
+}
+  
+  /* Darker background on mouse-over */
+.button:hover {
+    background-color: RoyalBlue;
+}
+
+
+
+      
+    
+
+
+
+/* @media screen and (max-width:700px) { */
+ 
+    /* .center{ */
+        /* min-height: 200px; */
+    /* } */
+
+/* } */
+
+
+
