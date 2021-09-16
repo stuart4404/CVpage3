@@ -1,74 +1,92 @@
-body {
-
-    height: 900px;
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: normal;
+    width:90%;
+    margin: 0 auto;
     
-    background-color: black;
-
 }
 
+body{
+    background-color: black;
+}
 
-
-#flex-container{
+#container{
 
     display:flex;
     flex-direction: column;
     justify-content: top;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-size: 7vmin;
+
+}
+
+
+.header{
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 240, 178);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
     
-
-}
-
-.x{
-    height: 25%;
-    padding: 10px;
-    text-align: center;
-}
-
-.title{
-
-    color: rgb(243, 239, 240);
-    background-color: rgb(42, 230, 57);
     
 }
 
 .phone{
 
     color: rgb(249, 253, 253);
-    background-color: rgb(28, 214, 84);
+    background-color: rgb(218, 216, 145);
+    border-radius: 15px;
+    padding: 2rem;
 
 }
 
-.address{
+.postal-address{
 
-    color: rgb(228, 225, 222);
-    background-color: rgb(68, 211, 33);
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 199, 110);
+    margin-top: 2rem;
+    border-radius: 15px;
+    padding: 2rem;
 
 }
 
 .email-address{
 
     color: azure;
-    background-color: chartreuse;
+    background-color: rgb(243, 241, 220);
+    font-size: 3vmin;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 15px;
+    padding: 2rem;
     
 }
 
 
+.download {
+
+    width: 70%;
+    
+
+}
 
 .button {
     background-color: DodgerBlue;
     border: none;
     color: white;
-    padding: 12px 30px;
+    padding: 2rem;
     cursor: pointer;
-    font-size: 20px;
-    text-align: center;
-   
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px
-    
+    font-size: 2rem;
+    border-radius: 15px;    
 }
   
   /* Darker background on mouse-over */
@@ -76,27 +94,20 @@ body {
     background-color: RoyalBlue;
 }
 
-.footer {
-    color: chartreuse;
-}
 
-.center {
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+      
     
-    
-}
 
 
-@media screen and (max-width:700px) {
+
+/* @media screen and (max-width:700px) { */
  
-    .center{
-        min-height: 200px;
-    }
+    /* .center{ */
+        /* min-height: 200px; */
+    /* } */
 
-}
+/* } */
 
 
 
